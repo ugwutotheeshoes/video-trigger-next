@@ -9,6 +9,7 @@ const form = () => {
   };
   return (
     <div>
+      <p>Please write a review.</p>
       <form onSubmit={handleSubmit} className="form">
         <label>
           name:
