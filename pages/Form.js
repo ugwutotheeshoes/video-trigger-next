@@ -6,6 +6,8 @@ const form = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     alert(`${name} said "${review}"`);
+    setName("")
+    setReview("")
   };
   return (
     <div>
