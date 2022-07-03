@@ -20,7 +20,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Feedback form trigger from video events in Next.js
+          Feedback Form Trigger from Video Events in Next.js
         </h1>
         <CloudinaryContext cloud_name="ugwutotheeshoes">
           <div className={styles.video}>
